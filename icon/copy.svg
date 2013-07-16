@@ -1,0 +1,21 @@
+<svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540">
+
+  <g transform="translate(60,130)">
+    <clipPath id="cut-lower-page">
+      <path d="M-10,-10h100v320h240v100h-340z"/>
+    </clipPath>
+
+    <path stroke="black" stroke-width="20" stroke-linejoin="round" fill="white"
+      d="M0,0v400h300v-320l-80,-80z" clip-path="url(#cut-lower-page)"/>
+    <text x="150" y="280" font-size="160" text-anchor="middle" fill="black" clip-path="url(#cut-lower-page)">&lt;/></text>
+  </g>
+
+  <g transform="translate(180,10)">
+    <path stroke="black" stroke-width="20" stroke-linejoin="round" fill="white"
+      d="M0,0v400h300v-320l-80,-80z"/>
+    <text x="150" y="280" font-size="160" text-anchor="middle" fill="black">&lt;/></text>
+  </g>
+
+</svg>

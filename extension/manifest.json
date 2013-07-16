@@ -1,0 +1,21 @@
+{
+  "name": "Copy Live HTML",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Copy live HTML, not the HTML source.",
+  "icons": {
+    "16": "copy16.png",
+    "48": "copy48.png",
+    "128": "copy128.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "copy128.png",
+    "default_title": "Copy Live HTML"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
